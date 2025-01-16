@@ -51,7 +51,21 @@ npx expo start
 This will show a QR code and several options:
 - Press `i` to open in iOS simulator
 - Press `a` to open in Android emulator
-- Scan QR code with Expo Go app (iOS/Android) to run on physical device
+- Scan QR code with Expo Go app (iOS/Android) to run on a physical device
+
+## Libraries Used
+
+This project utilizes several libraries to enhance functionality and user experience:
+
+- **Expo**: A framework and platform for universal React applications, providing a rich set of APIs and components.
+- **Expo Router**: For handling navigation within the app, allowing for a more streamlined routing experience.
+- **React Native Reanimated**: For smooth animations and transitions.
+- **Expo Linear Gradient**: To create beautiful gradient backgrounds.
+- **Expo Camera**: For advanced camera functionalities.
+- **Date-fns**: A modern JavaScript date utility library for parsing, formatting, and manipulating dates.
+- **Expo Vector Icons**: For using customizable icons throughout the app.
+
+**Note**: No other third-party libraries were used for this project; all libraries are integrated with Expo. Expo was chosen as it is now the default framework by Facebook, offering great community support, ease of use, and features like CI/CD, OTA updates using EAS.
 
 ## Troubleshooting
 
@@ -72,10 +86,17 @@ npx expo start --clear
 cd ios && pod install && cd ..
 ```
 
-## Learn More
+## Relevant Notes
 
-- [Expo Documentation](https://docs.expo.dev/)
-- [React Native Documentation](https://reactnative.dev/)
+- Ensure that your development environment is set up correctly for both iOS and Android.
+
+## Approach and Challenges
+
+In developing this application, I focused on creating a user-friendly interface while ensuring smooth performance. The use of Expo allowed for rapid development and testing, significantly reducing the time required to set up the environment.
+
+Having worked with many animation projects in the past, I was familiar with the concepts. However, implementing some of the header and shadow effects in the nutrition detail screen took additional time to perfect. Overall, there were no significant challenges beyond that.
+
+This project was a great opportunity to apply React Native and Expo skills
 
 ## License
 
