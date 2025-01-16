@@ -94,9 +94,9 @@ cd ios && pod install && cd ..
 
 In developing this application, I focused on creating a user-friendly interface while ensuring smooth performance. The use of Expo allowed for rapid development and testing, significantly reducing the time required to set up the environment.
 
-Having worked with many animation projects in the past, I was familiar with the concepts. However, implementing some of the header and shadow effects in the nutrition detail screen took additional time to perfect. Overall, there were no significant challenges beyond that.
+Having worked with many animation projects in the past, I was familiar with the concepts. However, implementing some of the header and shadow effects in the nutrition detail screen took additional time to perfect. Additionally, creating a custom circular progress bar and implementing camera scanning animations using Reanimated 3 were challenging tasks that required careful attention to detail. Overall, there were no significant challenges beyond that.
 
-This project was a great opportunity to apply React Native and Expo skills
+This project was a great opportunity to apply React Native and Expo skills.
 
 ## License
 
